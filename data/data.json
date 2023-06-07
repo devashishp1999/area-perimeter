@@ -1,0 +1,59 @@
+{
+  "language": "en",
+  "displayTexts": {
+    "en": {
+      "title": "Area Perimeter Tool",
+      "mode": {
+        "explore": "Explore Mode",
+        "question": "Question Mode"
+      },
+      "showLabelText": "Show Labels",
+      "area": "Area",
+      "perimeter": "Perimeter",
+      "showLabel": "false",
+      "showArea": "false",
+      "shaowPerimeter": "false",
+      "submit": "Submit",
+      "correct": "Correct!",
+      "tryagain": "Try again.",
+      "defaultColor": "#235880",
+
+      "disabledButtons": {
+        "explore": [],
+        "question": ["color", "reset"]
+      },
+      "instruction": "Drag the corner to make rows and columns."
+    },
+    "ar": {}
+  },
+  "questionSet": {
+    "en": [
+      {
+        "type": "q-a-render",
+        "q": "1.) Enter the perimeter of this shape.",
+        "a": "10",
+        "render": ["2.4", "2.5", "2.6", "3.4", "3.5", "3.6"]
+      },
+      {
+        "type": "q-a-render",
+        "q": "2.) Enter the area of this shape.",
+        "a": "6",
+        "render": ["2.4", "2.5", "2.6", "3.4", "3.5", "3.6"],
+        "color": "null"
+      },
+      {
+        "type": "q-aa-draw",
+        "q": "3.) Draw two rectangles that have an area of 8 units.",
+        "aCriteria": [8, 8],
+        "draw": true
+      },
+      {
+        "type": "q-ap-draw",
+        "q": "4.) Draw two ﬁgures that have a perimeter of 12 units.",
+        "aCriteria": [12, 12],
+        "draw": true
+      }
+    ],
+    "ar": []
+  }
+}
